@@ -24,7 +24,7 @@ curl --connect-timeout 10 -sL 'https://codeberg.org/api/v1/repos/forgejo/forgejo
 }
 
 get_current_version() {
-  eval $1 -v | cut -d " " -f 3
+  eval $1 -v | cut -d " " -f 3 | cut -d "+" -f 1
 }
 
 # Set variable #new_ver by checking release status from forgejo
