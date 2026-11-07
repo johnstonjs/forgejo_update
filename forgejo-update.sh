@@ -1,6 +1,6 @@
 #!/bin/sh
 # A shell script to automatically update Forejo
-# Depends only on basic shell utilities (curl, cut, find, grep, sed)
+# Depends only on basic shell utilities (curl, cut, find, grep, sed, jq)
 # Assumes use of systemd for Forgejo start/stop
 
 
